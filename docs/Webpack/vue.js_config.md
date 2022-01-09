@@ -1,0 +1,38 @@
+# vue.js config
+Created вторник 27 Апрель 2021
+```
+npm install -D webpack webpack-hot-middleware
+npm install -D vue vue-loader vue-router vue-template-compiler
+npm install -D style-loader css-loader sass-loader
+```
+
+package.json
+```json
+{
+  "name": "vue2-webpack4-bundle",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "vue-loader": "^15.8.3",
+    "vue-loader-plugin": "^1.3.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "node-sass": "^4.13.1",
+
+  }
+}
+```
