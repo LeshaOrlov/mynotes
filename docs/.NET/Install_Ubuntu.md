@@ -10,21 +10,25 @@ Ubuntu 20.04
 Установите один из следующих пакетов:
 
 Установка пакета SDK
+```
 	sudo apt-get update; \
 	  sudo apt-get install -y apt-transport-https && \
 	  sudo apt-get update && \
 	  sudo apt-get install -y dotnet-sdk-5.0
-
+```
 
 Установка среды выполнения без SDK
+```
 	sudo apt-get update; \
 	  sudo apt-get install -y apt-transport-https && \
 	  sudo apt-get update && \
 	  sudo apt-get install -y aspnetcore-runtime-5.0
-
+```
 
 Установка среды выполнения dotnet без поддержки ASP.NET
+```
 	sudo apt-get install -y dotnet-runtime-5.0
+```
 
 
 Подробнее: <https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-ubuntu>
